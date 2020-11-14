@@ -1,0 +1,192 @@
+h1  {
+  background-color: #706897;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  font-style: italic;
+
+}
+
+.home-hero h2 {
+  color:white;
+
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+  header {
+    width: 100%;
+}
+body{
+  background-color: #FFFFFF;
+  color: black;
+  font-family: Verdana, Arial, sans-serif;
+  border-bottom: 0;
+
+}
+
+  nav {
+  float: right;
+  font-weight: bold;
+  background-color: #9088d4;
+  color: white;
+  padding: 10px 5px 0 10px;
+  width: 100%;
+}
+
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+  nav li {
+    display: inline;
+}
+  nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+  nav a:link{
+    color:white;
+}
+  nav a:visited {
+    color:black;
+    text-decoration: none;
+}
+  nav a:hover  {
+    color:white;
+    text-decoration: none;
+}
+  nav a:active  {
+    color:blue;
+}
+
+  .nav1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 15px;
+    background-color: #9088d4;
+    color: Navy;
+    padding-top: 4px;
+    max-width: 100%;
+}
+
+  .nav1 {
+    list-style-type: none;
+    text-align: left;
+}
+  .nav1 li {
+    display:block;
+}
+  .nav1 a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+  .nav1 a:link{
+    color:white;
+}
+  .nav1 a:visited {
+    color:white;
+}
+  .nav1 a:hover  {
+    color:orange;
+}
+  .nav1 a:active  {
+    color:red;
+}
+
+main{
+    width: 1200px;
+    /*padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;*/
+    margin: 5px;
+    background-color: white;
+}
+
+  .home-hero {
+  background-image: url(images/mountains.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px 10px 10px 30px;
+  text-shadow: 2px 3px 0 #7A7A7A;
+  text-align: right;
+}
+
+  .container{
+      max-width:1200px;
+      margin: auto;
+      overflow: auto;
+      background-color:#ffffff;
+}
+
+  .gallery{
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      max-width: 1000px;
+  }
+
+  .gallery img{
+      width: 100%;
+      height: auto;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+footer{
+  width: 100%;
+  font-size: .80em;
+  font-style: italic;
+  text-align: center;
+  padding: 5px;
+  background-color: #706897;
+  color: white;
+
+}
+
+ .i.fa {
+   font-size: 30px;
+   color: blue;
+   float: left;
+}
+
+
+/*Main section set to max-width*/
+@media (min-width: 1200px) {
+  .container{
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+  /* CSS Adjustments for Tablets */
+  @media only screen and (max-width: 1200px) {
+  	h1{
+  		font-size: 1.8em;
+  }
+  }
+  /* CSS Adjustments for Smartphones */
+  @media only screen and (max-width: 768px) {
+  	h1{
+  		font-size: 1.5em;
+  	}
+  }
